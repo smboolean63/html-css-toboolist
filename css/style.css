@@ -1,0 +1,110 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common */
+body {
+    background-color: #f6f8f9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.btn-blue {
+    background-color: #47adf1;
+    border-color: #47adf1;
+    color: #fff;
+}
+.btn-white {
+    background-color: #ffffff;
+    border-color: lightgray;
+    color: lightgray;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    background-color: #ffffff;
+}
+.logo {
+    vertical-align: middle;
+}
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Main */
+
+main {
+    margin-top: 50px;
+}
+
+.tasks-container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* Task Buttons */
+.task-buttons {
+    padding: 10px 40px;
+    border-bottom: 2px solid #f6f8f9;
+}
+
+/* Task Lists */
+.task-lists {
+    padding: 40px;
+    color: #444851;
+}
+.task-group {
+    margin-bottom: 25px;
+}
+
+h3 {
+    margin-bottom: 16px;
+}
+
+.tag {
+    display: inline-block;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 10px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.tag-blue {
+    background-color: #47adf1;
+}
+.tag-orange {
+    background-color: orange;
+}
+
+.circle {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 10px;
+}
+.circle-green {
+    border-color: #64c0a9;
+    color: #64c0a9;
+}
+
+.task {
+    margin-top: 10px;
+}
